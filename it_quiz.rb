@@ -3,7 +3,8 @@ require 'sinatra'
 get '/' do
   @title = 'Italian Quiz'
   @questions = Hash.new
-  @questions["a pen"] = ["una penna"]
+  @questions ["a pen"] = "una penna"
+  @questions ["hello"] = ["salve", "ciao"]
   erb :quiz
 end
 
