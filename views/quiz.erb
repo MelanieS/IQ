@@ -1,0 +1,12 @@
+  <div id='instructions'>Welcome to Melanie's Italian Quiz program.</div>
+  
+  <form name="mbti_quiz" action="/results" method="POST">
+    <ul id="questions">
+      <% @questions.each do |question, answers| %>
+      <li><%= question %></li>
+            <input id="<%= @id %>" type="text" name="<%= @name %>" value="<%= @value %>" />
+      <% end %>
+    </ul>
+
+    <input type="submit" value="Submit" class="input" />
+  </form> 

@@ -1,0 +1,36 @@
+#header {
+  margin: 1em 0em 3em 2em;
+}
+
+#instructions {
+  margin-left: 4em;
+  margin-bottom: 1.5em;
+  font-style: italic;
+  color: green;
+}
+
+ul#questions {
+  list-style: none;
+}
+
+ul#questions>li {
+  margin-bottom: 1em;
+  font-weight:bold;
+}
+
+ul.answers {
+  margin: 0.2em 0em 1.5em -1.5em;
+  list-style: none;
+  font-weight:normal;
+}
+
+.input{
+  margin-top: 1.5em;
+  margin-left: 4em;
+  background: #afb2ac;
+  border: 1px solid #c9fd38b;
+}
+
+.input:hover{
+  background: #c4c6c2;
+}
