@@ -1,1 +1,8 @@
-  <div id='instructions'>You did it! Here are your results...</div>
+<div id='instructions'>You did it! Here are your results...</div>
+<ul>
+  <% @answers.each do |name, answer| %>
+    <li><%= name %><br>
+    Actual: <%= answer.actual %><br>
+    Given: <%= answer.given %>
+  <% end %>
+<ul>
